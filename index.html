@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Project 2 - JavaScript - Currency converter</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h1>Przelicznik walut</h1>
+        </div>
+    </div>
+    <div class="container-przel">
+        <input id="input" placeholder="0" value=1>
+        <select id="currencies">
+            <option value="CHF">CHF</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+        
+      <button id="button" type="button">Przelicz!</button>
+    </div>
+    <div>
+        <p id="endresult"></p>
+    </div>
+    <script src="app.js"></script>   
+  </body>
+</html>
